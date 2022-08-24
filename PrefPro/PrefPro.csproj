@@ -17,6 +17,7 @@
     <Version>$(PluginVersion)</Version>
     <FileVersion>$(PluginVersion)</FileVersion>
     <AssemblyVersion>$(PluginVersion)</AssemblyVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
